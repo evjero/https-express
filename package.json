@@ -1,0 +1,24 @@
+{
+	"name": "fe-doc-server",
+	"version": "1.0.0",
+	"description": "Simple Express Node.js server for proxy",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"serve": "concurrently -- \"npm start\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/evjero/https-express"
+	},
+	"author": "evjero",
+	"license": "MIT",
+	"devDependencies": {
+		"concurrently": "^7.1.0",
+		"cross-env": "^7.0.3",
+		"express": "^4.17.3",
+		"express-http-proxy": "^1.6.3",
+		"morgan": "^1.10.0"
+	}
+}
+
