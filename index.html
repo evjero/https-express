@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="public/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000" />
+		<meta name="description" content="Documentation" />
+		<title>HTTPS Express Hub</title>
+		<style>
+			html,
+			body {
+				overflow: hidden;
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				background-color: #fafafa;
+				color: #2020a5;
+			}
+			body {
+				overflow: auto;
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: flex-start;
+				text-align: center;
+			}
+			a {
+				text-decoration: none;
+				cursor: pointer;
+			}
+			.card-container {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				flex-wrap: wrap;
+				align-content: center;
+				align-items: center;
+				overflow: auto;
+			}
+			.card {
+				padding: 16px;
+				margin: 16px;
+				flex: 1 1 auto;
+				border-radius: 4px;
+				width: 300px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width: 75vw; height: 100vh">
+			<h1 style="font-size: 4rem">Welcome</h1>
+			<div class="card-container">
+				<div class="card" style="box-shadow: 0px 0px 10px 5px rgba(68, 177, 68, 0.5)">
+					<h2>
+						<a style="color: rgb(68, 177, 68)" href="http://localhost:9000">Site one</a>
+					</h2>
+				</div>
+				<div class="card" style="box-shadow: 0px 0px 10px 5px #2323af6b">
+					<h2>
+						<a style="color: #2323af" href="http://localhost:9001">Site two</a>
+					</h2>
+				</div>
+				<div class="card" style="box-shadow: 0px 0px 10px 5px #2323af6b">
+					<h2>
+						<a style="color: #6363b6" href="http://localhost:9002">Site three</a>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
